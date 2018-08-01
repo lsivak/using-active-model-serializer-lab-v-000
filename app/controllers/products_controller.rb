@@ -26,7 +26,7 @@ class ProductsController < ApplicationController
     @product = Product.find(params[:id])
       render json: @post, status: 200
     end
-  end
+
 
   private
 
